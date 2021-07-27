@@ -1,0 +1,41 @@
+[
+  {
+    "theme": "animal",
+    "images": [
+      "camel.jpg",
+      "cow.jpg",
+      "donkey.jpg",
+      "elephant.jpg",
+      "falcon.jpg",
+      "lizard.jpg",
+      "tiger.jpg",
+      "turtle.jpg"
+    ]
+  },
+  {
+    "theme": "birds",
+    "images": [
+      "linnet.jpg",
+      "chaffinch.jpg",
+      "chiffchaff.jpg",
+      "wagtail.jpg",
+      "blackbird.jpg",
+      "great-tit.jpg",
+      "fieldfare.jpg",
+      "yellowhammer.jpg"
+    ]
+  },
+  {
+    "theme": "sport",
+    "images": [
+      "baseball.jpg",
+      "beach.jpg",
+      "football.jpg",
+      "tennis.jpg",
+      "basketball.jpg",
+      "surfing.jpg",
+      "rugby.jpg",
+      "golf.jpg"
+    ]
+  }
+]

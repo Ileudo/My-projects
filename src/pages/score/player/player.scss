@@ -1,0 +1,49 @@
+.player {
+  display: grid;
+  grid-template-columns: auto minmax(auto, 1fr) auto;
+
+  border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+  padding-bottom: 5px;
+  &__avatar {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+  }
+  &__avatar img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  &__name {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    color: #333333;
+  }
+  &__email {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    color: #333333;
+  }
+  &__result {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+  &__result-title {
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 5px;
+  }
+  &__result-points {
+    color: #2196f3;
+  }
+}

@@ -1,0 +1,21 @@
+.score {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1000px) 1fr;
+
+  &__content {
+    grid-column: 2/3;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 48px 98px 48px 56px;
+  }
+
+  &__title {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #333333;
+    margin-bottom: 24px;
+  }
+}

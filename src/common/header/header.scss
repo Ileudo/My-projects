@@ -1,0 +1,167 @@
+$blue: #2196f3;
+
+.header {
+  height: 64px;
+  width: 100%;
+  background-color: $blue;
+  display: grid;
+  grid-template-columns: 1fr minmax(max-content, 1000px) 1fr;
+  margin-bottom: 33px;
+
+  &__col1,
+  &__col2,
+  &__col3 {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__logo {
+    margin: 12px auto 12px 24px;
+    display: grid;
+    width: 80px;
+  }
+
+  &__logo-inner {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo-inner--top {
+    color: #ffffff;
+    background-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &__logo-inner--bottom {
+    color: $blue;
+    background-color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &__menu {
+    margin-left: 36px;
+    height: 100%;
+  }
+
+  &__menu-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 96px;
+  }
+
+  &__menu-item:hover {
+    background-color: #1e88e5;
+  }
+
+  &__menu-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__menu-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-bottom: 7px;
+  }
+
+  &__menu-icon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__menu-icon--about {
+    border: 2px solid $blue;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  &__menu-icon--about img {
+    width: 8px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__menu-subtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+  }
+
+  &__register-block {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__game-control-block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  }
+
+  &__game-control-block.hidden,
+  &__register-block.hidden,
+  &__button-link.hidden {
+    display: none;
+  }
+
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    min-width: max-content;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: $blue;
+    text-transform: uppercase;
+
+    background: #f2f9fe;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    margin-right: 30px;
+  }
+
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+
+  &__avatar img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+  }
+}

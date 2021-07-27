@@ -1,0 +1,88 @@
+.game-board__card-wrapper {
+  perspective: 500px;
+  margin-right: 24px;
+  margin-bottom: 14px;
+
+  &.flipped > .card {
+    transform: rotateY(180deg) translateX(50%);
+    transform-origin: 75%;
+  }
+  &.enabled {
+    cursor: pointer;
+  }
+  &.enabled:not(.flipped) > .card:hover {
+    transform: translateZ(30px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  }
+  &.right .card__front-state {
+    background-color: rgba(10, 207, 131, 0.3);
+  }
+  &.right .card__front-icon--right {
+    display: block;
+  }
+  &.wrong .card__front-state {
+    background-color: rgba(242, 78, 30, 0.3);
+  }
+  &.wrong .card__front-icon--wrong {
+    display: block;
+  }
+}
+
+.card {
+  transform-style: preserve-3d;
+  position: relative;
+  width: 168px;
+  height: 168px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  transform-origin: 75%;
+  transition: all 0.5s;
+  &__front,
+  &__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    backface-visibility: hidden;
+    background-position: center;
+    background-size: cover;
+  }
+  &__front {
+    background-color: transparent;
+    transform: rotateY(180deg);
+  }
+  &__back {
+    background-image: url('../../../assets/images/card-back.png');
+  }
+
+  &__front-state {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__front-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+  }
+
+  &__front-icon--right {
+    display: none;
+  }
+
+  &__front-icon--wrong {
+    display: none;
+  }
+
+  &__front-icon img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
