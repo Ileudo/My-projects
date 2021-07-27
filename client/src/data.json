@@ -1,0 +1,436 @@
+{
+  "categories": [
+    {
+      "name": "Action1",
+      "img": "hug.jpg",
+      "cards": [
+        {
+          "en": "cry",
+          "ru": "плакать",
+          "img": "cry.jpg",
+          "audio": "cry.mp3"
+        },
+        {
+          "en": "dance",
+          "ru": "танцевать",
+          "img": "dance.jpg",
+          "audio": "dance.mp3"
+        },
+        {
+          "en": "dive",
+          "ru": "нырять",
+          "img": "dive.jpg",
+          "audio": "dive.mp3"
+        },
+        {
+          "en": "draw",
+          "ru": "рисовать",
+          "img": "draw.jpg",
+          "audio": "draw.mp3"
+        },
+        {
+          "en": "fish",
+          "ru": "ловить рыбу",
+          "img": "fish.jpg",
+          "audio": "fish.mp3"
+        },
+        {
+          "en": "fly",
+          "ru": "Летать",
+          "img": "fly.jpg",
+          "audio": "fly.mp3"
+        },
+        {
+          "en": "hug",
+          "ru": "обнимать",
+          "img": "hug.jpg",
+          "audio": "hug.mp3"
+        },
+        {
+          "en": "jump",
+          "ru": "прыгать",
+          "img": "jump.jpg",
+          "audio": "jump.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Action2",
+      "img": "sing.jpg",
+      "cards": [
+        {
+          "en": "open",
+          "ru": "открывать",
+          "img": "open.jpg",
+          "audio": "open.mp3"
+        },
+        {
+          "en": "play",
+          "ru": "играть",
+          "img": "play.jpg",
+          "audio": "play.mp3"
+        },
+        {
+          "en": "point",
+          "ru": "указывать",
+          "img": "point.jpg",
+          "audio": "point.mp3"
+        },
+        {
+          "en": "ride",
+          "ru": "ездить",
+          "img": "ride.jpg",
+          "audio": "ride.mp3"
+        },
+        {
+          "en": "run",
+          "ru": "бегать",
+          "img": "run.jpg",
+          "audio": "run.mp3"
+        },
+        {
+          "en": "sing",
+          "ru": "петь",
+          "img": "sing.jpg",
+          "audio": "sing.mp3"
+        },
+        {
+          "en": "skip",
+          "ru": "пропускать",
+          "img": "skip.jpg",
+          "audio": "skip.mp3"
+        },
+        {
+          "en": "swim",
+          "ru": "плавать",
+          "img": "swim.jpg",
+          "audio": "swim.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Action3",
+      "img": "argue.jpg",
+      "cards": [
+        {
+          "en": "argue",
+          "ru": "спорить",
+          "img": "argue.jpg",
+          "audio": "argue.mp3"
+        },
+        {
+          "en": "build",
+          "ru": "строить",
+          "img": "build.jpg",
+          "audio": "build.mp3"
+        },
+        {
+          "en": "carry",
+          "ru": "нести",
+          "img": "carry.jpg",
+          "audio": "carry.mp3"
+        },
+        {
+          "en": "catch",
+          "ru": "ловить",
+          "img": "catch.jpg",
+          "audio": "catch.mp3"
+        },
+        {
+          "en": "drive",
+          "ru": "водить",
+          "img": "drive.jpg",
+          "audio": "drive.mp3"
+        },
+        {
+          "en": "drop",
+          "ru": "падать",
+          "img": "drop.jpg",
+          "audio": "drop.mp3"
+        },
+        {
+          "en": "pull",
+          "ru": "тянуть",
+          "img": "pull.jpg",
+          "audio": "pull.mp3"
+        },
+        {
+          "en": "push",
+          "ru": "толкать",
+          "img": "push.jpg",
+          "audio": "push.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Adjective",
+      "img": "big.jpg",
+      "cards": [
+        {
+          "en": "big",
+          "ru": "большой",
+          "img": "big.jpg",
+          "audio": "big.mp3"
+        },
+        {
+          "en": "fast",
+          "ru": "быстрый",
+          "img": "fast.jpg",
+          "audio": "fast.mp3"
+        },
+        {
+          "en": "friendly",
+          "ru": "дружелюбный",
+          "img": "friendly.jpg",
+          "audio": "friendly.mp3"
+        },
+        {
+          "en": "old",
+          "ru": "старый",
+          "img": "old.jpg",
+          "audio": "old.mp3"
+        },
+        {
+          "en": "slow",
+          "ru": "медленный",
+          "img": "slow.jpg",
+          "audio": "slow.mp3"
+        },
+        {
+          "en": "small",
+          "ru": "маленький",
+          "img": "small.jpg",
+          "audio": "small.mp3"
+        },
+        {
+          "en": "unfriendly",
+          "ru": "недружелюбный",
+          "img": "unfriendly.jpg",
+          "audio": "unfriendly.mp3"
+        },
+        {
+          "en": "young",
+          "ru": "молодой",
+          "img": "young.jpg",
+          "audio": "young.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Animal1",
+      "img": "cat.jpg",
+      "cards": [
+        {
+          "en": "cat",
+          "ru": "кот",
+          "img": "cat.jpg",
+          "audio": "cat.mp3"
+        },
+        {
+          "en": "chick",
+          "ru": "цыплёнок",
+          "img": "chick.jpg",
+          "audio": "chick.mp3"
+        },
+        {
+          "en": "chicken",
+          "ru": "курочка",
+          "img": "chicken.jpg",
+          "audio": "chicken.mp3"
+        },
+        {
+          "en": "dog",
+          "ru": "пёс",
+          "img": "dog.jpg",
+          "audio": "dog.mp3"
+        },
+        {
+          "en": "horse",
+          "ru": "лошадка",
+          "img": "horse.jpg",
+          "audio": "horse.mp3"
+        },
+        {
+          "en": "pig",
+          "ru": "свинья",
+          "img": "pig.jpg",
+          "audio": "pig.mp3"
+        },
+        {
+          "en": "rabbit",
+          "ru": "кролик",
+          "img": "rabbit.jpg",
+          "audio": "rabbit.mp3"
+        },
+        {
+          "en": "sheep",
+          "ru": "овечка",
+          "img": "sheep.jpg",
+          "audio": "sheep.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Animal2",
+      "img": "mouse.jpg",
+      "cards": [
+        {
+          "en": "bird",
+          "ru": "птичка",
+          "img": "bird.jpg",
+          "audio": "bird.mp3"
+        },
+        {
+          "en": "dolphin",
+          "ru": "дельфин",
+          "img": "dolphin.jpg",
+          "audio": "dolphin.mp3"
+        },
+        {
+          "en": "fish",
+          "ru": "рыба",
+          "img": "fish.jpg",
+          "audio": "fish.mp3"
+        },
+        {
+          "en": "frog",
+          "ru": "лягушка",
+          "img": "frog.jpg",
+          "audio": "frog.mp3"
+        },
+        {
+          "en": "giraffe",
+          "ru": "жираф",
+          "img": "giraffe.jpg",
+          "audio": "giraffe.mp3"
+        },
+        {
+          "en": "lion",
+          "ru": "лев",
+          "img": "lion.jpg",
+          "audio": "lion.mp3"
+        },
+        {
+          "en": "mouse",
+          "ru": "мышка",
+          "img": "mouse.jpg",
+          "audio": "mouse.mp3"
+        },
+        {
+          "en": "turtle",
+          "ru": "черепашка",
+          "img": "turtle.jpg",
+          "audio": "turtle.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Clothes",
+      "img": "coat.jpg",
+      "cards": [
+        {
+          "en": "blouse",
+          "ru": "блузка",
+          "img": "blouse.jpg",
+          "audio": "blouse.mp3"
+        },
+        {
+          "en": "boots",
+          "ru": "ботинки",
+          "img": "boots.jpg",
+          "audio": "boots.mp3"
+        },
+        {
+          "en": "coat",
+          "ru": "пальто",
+          "img": "coat.jpg",
+          "audio": "coat.mp3"
+        },
+        {
+          "en": "dress",
+          "ru": "платье",
+          "img": "dress.jpg",
+          "audio": "dress.mp3"
+        },
+        {
+          "en": "pants",
+          "ru": "штаны",
+          "img": "pants.jpg",
+          "audio": "pants.mp3"
+        },
+        {
+          "en": "shirt",
+          "ru": "рубашка",
+          "img": "shirt.jpg",
+          "audio": "shirt.mp3"
+        },
+        {
+          "en": "shoes",
+          "ru": "туфли",
+          "img": "shoes.jpg",
+          "audio": "shoes.mp3"
+        },
+        {
+          "en": "skirt",
+          "ru": "юбка",
+          "img": "skirt.jpg",
+          "audio": "skirt.mp3"
+        }
+      ]
+    },
+    {
+      "name": "Emotions",
+      "img": "surprised.jpg",
+      "cards": [
+        {
+          "en": "angry",
+          "ru": "сердитый",
+          "img": "angry.jpg",
+          "audio": "angry.mp3"
+        },
+        {
+          "en": "happy",
+          "ru": "счастливый",
+          "img": "happy.jpg",
+          "audio": "happy.mp3"
+        },
+        {
+          "en": "laugh",
+          "ru": "смех",
+          "img": "laugh.jpg",
+          "audio": "laugh.mp3"
+        },
+        {
+          "en": "sad",
+          "ru": "грустный",
+          "img": "sad.jpg",
+          "audio": "sad.mp3"
+        },
+        {
+          "en": "scared",
+          "ru": "испуганный",
+          "img": "scared.jpg",
+          "audio": "scared.mp3"
+        },
+        {
+          "en": "smile",
+          "ru": "улыбка",
+          "img": "smile.jpg",
+          "audio": "smile.mp3"
+        },
+        {
+          "en": "surprised",
+          "ru": "удивлённый",
+          "img": "surprised.jpg",
+          "audio": "surprised.mp3"
+        },
+        {
+          "en": "tired",
+          "ru": "уставший",
+          "img": "tired.jpg",
+          "audio": "tired.mp3"
+        }
+      ]
+    }
+  ]
+}

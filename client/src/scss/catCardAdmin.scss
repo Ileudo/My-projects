@@ -1,0 +1,62 @@
+.admin-panel__card {
+  border: 1px solid #dee2e6;
+}
+
+.form-floating {
+  display: none;
+}
+
+.update .form-floating {
+  display: block;
+}
+//Words
+.admin-panel__modal-body-words {
+  display: block;
+}
+.update .admin-panel__modal-body-words {
+  display: none;
+}
+.create .admin-panel__modal-body-words {
+  display: none;
+}
+
+// Add Word
+.admin-panel__card-add-word {
+  display: block;
+}
+.update .admin-panel__card-add-word {
+  display: none;
+}
+.create .admin-panel__card-add-word {
+  display: none;
+}
+
+// Update
+.update .admin-panel__card-update {
+  display: block;
+}
+.update .admin-panel__card-update {
+  display: none;
+}
+.create .admin-panel__card-update {
+  display: none;
+}
+
+//Cancel
+.admin-panel__card-cancel {
+  display: none;
+}
+.update .admin-panel__card-cancel {
+  display: block;
+}
+
+// Update Submit
+.admin-panel__card-update-submit {
+  display: none;
+}
+.update .admin-panel__card-update-submit {
+  display: block;
+}
+.create .admin-panel__card-update-submit {
+  display: none;
+}

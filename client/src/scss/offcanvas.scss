@@ -1,0 +1,88 @@
+@import 'custom.scss';
+
+.offcanvas {
+  color: #fff;
+  transition: all 0.3s;
+  background: $green-gradient;
+}
+
+.offcanvas-start {
+  width: 325px;
+}
+
+.play .offcanvas {
+  background: $orange-gradient;
+}
+
+.offcanvas.show {
+  visibility: visible;
+}
+
+.dropdown-menu {
+  text-align: center;
+  background: $green-gradient;
+}
+
+.play .dropdown-menu {
+  background: $orange-gradient;
+}
+
+.dropdown-toggle {
+  min-width: 10rem;
+}
+
+.dropdown-toggle::after {
+  vertical-align: initial;
+}
+
+.offcanvas__list {
+  align-items: center;
+}
+.offcanvas__list > li {
+  text-align: center;
+  border: none;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: calc(0.75rem + 0.75vw);
+  color: #fff;
+  user-select: none;
+  padding: 0.25rem 0;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link:focus {
+  color: #fff;
+}
+
+li.current > .nav-link {
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+}
+
+.offcanvas__btn-logout {
+  display: none;
+}
+
+// ADMIN VIEW
+.admin .offcanvas__btn-logout {
+  display: inline-block;
+}
+
+.admin .offcanvas__nav-item--btn-login {
+  display: none;
+}
+
+.dropdown__admin-panel {
+  display: none;
+}
+
+.admin .dropdown__admin-panel {
+  display: block;
+}

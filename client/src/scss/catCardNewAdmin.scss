@@ -1,0 +1,65 @@
+.admin-panel__card-add-category {
+  border: 1px solid #dee2e6;
+}
+
+.admin-panel__card-add-category .modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-panel__card-add-category-image-wrapper {
+  width: 85px;
+  height: 85px;
+  opacity: 0.6;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  position: relative;
+}
+
+.admin-panel__card-add-category-image-wrapper:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.admin-panel__card-add-category-image-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+// Image
+.admin-panel__card-add-category-image-wrapper {
+  display: block;
+}
+.create .admin-panel__card-add-category-image-wrapper {
+  display: none;
+}
+
+// Input Form
+.admin-panel__card-add-category-form {
+  display: none;
+}
+.create .admin-panel__card-add-category-form {
+  display: block;
+}
+
+// Cancel
+.admin-panel__card-add-category-cancel {
+  display: none;
+}
+
+.create .admin-panel__card-add-category-cancel {
+  display: block;
+}
+
+// Create
+.admin-panel__card-add-category-create {
+  display: none;
+}
+.create .admin-panel__card-add-category-create {
+  display: block;
+}

@@ -1,0 +1,62 @@
+@import 'custom.scss';
+
+.categories__row {
+  margin-bottom: 2rem;
+}
+
+.categories__row > * {
+  user-select: none;
+}
+
+.categories__card-content {
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 0.5s;
+}
+
+.categories__card-content:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  transform: translateY(-0.5rem);
+}
+
+.categories__card-up {
+  height: 6em;
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+  background: $green-gradient;
+}
+
+.play .categories__card-up {
+  background: $orange-gradient;
+}
+
+.categories__card-avatar {
+  width: 8em;
+  height: 8em;
+  margin-top: -4em;
+  overflow: hidden;
+  border: 0.25em solid #fff;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.categories__card-avatar img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.categories__card-body {
+  padding: 1rem;
+}
+.categories__card-title {
+  font-family: Roboto, sans-serif;
+  color: #000;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+}

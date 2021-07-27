@@ -1,0 +1,11 @@
+.modal:not(.show) {
+  display: none;
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal-title {
+  color: #000000;
+}
