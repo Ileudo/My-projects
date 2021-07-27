@@ -1,0 +1,524 @@
+@import '~@fontsource/roboto/index.css';
+@import '~@fontsource/roboto/400.css';
+@import '~@fontsource/roboto/700.css';
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+  color: #f8f9fa;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 40px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  color: #212529;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: 0.15s;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+.btn-light {
+  border: none;
+  color: #212529;
+  background-color: hsl(210, 17%, 98%);
+  border-bottom: 6px solid hsl(210, 17%, 90%);
+}
+.btn-light:hover {
+  color: #212529;
+  background-color: hsl(210, 20%, 98%);
+  border-bottom: 6px solid hsl(210, 20%, 90%);
+}
+.btn-light:active {
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(210, 20%, 90%);
+  color: #212529;
+  background-color: hsl(210, 20%, 98%);
+}
+.btn-light:disabled {
+  background-color: hsl(210, 0%, 98%);
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(210, 0%, 90%);
+  cursor: default;
+}
+
+.btn-lightgreen {
+  border: none;
+  color: #212529;
+  background-color: hsl(153, 31%, 73%);
+  border-bottom: 6px solid hsl(153, 31%, 66%);
+}
+.btn-lightgreen:hover {
+  background-color: hsl(152, 31%, 59%);
+  border-bottom: 6px solid hsl(152, 31%, 52%);
+}
+.btn-lightgreen:active {
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(152, 31%, 52%);
+}
+.btn-lightgreen:disabled {
+  background-color: hsl(153, 0%, 73%);
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(153, 0%, 66%);
+  cursor: default;
+}
+
+.btn-lightred {
+  border: none;
+  color: #212529;
+  background-color: hsl(354, 71%, 81%);
+  border-bottom: 6px solid hsl(354, 71%, 76%);
+}
+.btn-lightred:hover {
+  background-color: hsl(355, 70%, 72%);
+  border-bottom: 6px solid hsl(355, 70%, 67%);
+}
+.btn-lightred:active {
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(355, 70%, 67%);
+}
+.btn-lightred:disabled {
+  background-color: hsl(354, 0%, 81%);
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(354, 0%, 76%);
+  cursor: default;
+}
+
+.btn-lightyellow {
+  border: none;
+  color: #212529;
+  background-color: hsl(45, 100%, 81%);
+  border-bottom: 6px solid hsl(45, 100%, 75%);
+}
+.btn-lightyellow:hover {
+  background-color: hsl(45, 100%, 71%);
+  border-bottom: 6px solid hsl(45, 100%, 65%);
+}
+.btn-lightyellow:active {
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(45, 100%, 65%);
+}
+.btn-lightyellow:disabled {
+  background-color: hsl(45, 0%, 81%);
+  transform: translateY(4px);
+  border-bottom: 2px solid hsl(45, 0%, 75%);
+  cursor: default;
+}
+
+.btn-outline-yellow {
+  color: #ffda6a;
+  border-color: #ffda6a;
+}
+.btn-outline-yellow:hover {
+  color: #212529;
+  background-color: #ffda6a;
+  border-color: #ffda6a;
+}
+.btn-outline-yellow:active {
+  color: #212529;
+  background-color: #ffda6a;
+  border-color: #ffda6a;
+  box-shadow: 0 0 0 0.25rem rgb(255 218 106 / 50%);
+}
+
+.input {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #f9fafb;
+  border: 1px solid #f9fafb;
+  border-radius: 0.25rem;
+  transition: 0.15s;
+}
+.input:disabled {
+  border: 1px solid #bfbfbf;
+  background-color: #bfbfbf;
+  cursor: default;
+  pointer-events: none; //Attention
+}
+
+.input-small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+.input:focus {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+[type='color'] {
+  height: 42px;
+}
+[type='color']:disabled {
+  background-color: #bfbfbf;
+}
+/*PAGE SWITCHER */
+.page-switcher {
+  padding-left: 20px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page-switcher > .btn {
+  margin-right: 30px;
+}
+
+.page-switcher > .btn:last-child {
+  margin-right: 0;
+}
+/*MENU*/
+.menu {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.create-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.create-block > * {
+  margin-right: 10px;
+}
+
+.create-block *:last-child {
+  margin-right: 0;
+}
+
+.update-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.update-block > * {
+  margin-right: 10px;
+}
+
+.update-block *:last-child {
+  margin-right: 0;
+}
+
+.controls-block {
+  display: flex;
+  align-items: center;
+}
+
+.controls-block .btn {
+  margin-right: 10px;
+}
+
+.controls-block .btn:last-child {
+  margin-right: 0;
+}
+
+/* GARAGE*/
+.garage__title {
+  font-size: calc(1.325rem + 0.9vw);
+  color: #ffda6a;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.garage__page-number {
+  font-size: calc(1.3rem + 0.6vw);
+  color: #ffda6a;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+.track__item {
+  padding: 5px 20px 0px 20px;
+  border-color: #f8f9fa;
+  background-color: #444;
+}
+.track__buttons {
+  margin-bottom: 5px;
+}
+.track__car-model-name {
+  color: #ffda6a;
+}
+.track__buttons > * {
+  margin-right: 10px;
+}
+.track__content {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.track__drive-buttons .btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid transparent;
+  color: transparent;
+  padding: 0.25rem 0.25rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.track__drive-buttons .track__start-btn {
+  color: #198754;
+  border: 3px solid #198754;
+  font-weight: 700;
+}
+.track__drive-buttons .track__start-btn:hover {
+  color: #f8f9fa;
+  background-color: #198754;
+  border-color: #198754;
+}
+.track__drive-buttons .track__start-btn:active {
+  box-shadow: 0 0 0 0.25rem rgb(25 135 84 / 50%);
+}
+.track__drive-buttons .track__stop-btn {
+  border: 3px solid #dc3545;
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.track__drive-buttons .track__stop-btn:hover {
+  color: #f8f9fa;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.track__drive-buttons .track__stop-btn:active {
+  box-shadow: 0 0 0 0.25rem rgb(220 53 69 / 50%);
+}
+.track__drive-buttons .track__start-btn:disabled,
+.track__drive-buttons .track__stop-btn:disabled {
+  cursor: default;
+  border: 3px solid darkgray;
+  color: darkgray;
+  box-shadow: none;
+  background-color: transparent;
+}
+.track__drive-buttons .track__start-btn.ignition:disabled,
+.track__drive-buttons .track__stop-btn.braking:disabled {
+  border: 3px solid #3d8bfd;
+  color: #3d8bfd;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.track__car {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.track__car-image {
+  position: relative;
+  width: 80px;
+  height: 40px;
+}
+.track__car-image svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  fill: orange;
+}
+.track__flag {
+  position: absolute;
+  top: 0;
+  right: 90px;
+  width: 62px;
+  height: 40px;
+}
+
+.track__flag img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+hr {
+  border: none;
+  border-top: 3px dashed #fff;
+  // color: #f8f9fa;
+  // background-color: #f8f9fa;
+  height: 1px;
+  margin: 0 -20px;
+}
+
+/*PAGINATION */
+.pagination {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.pagination-list {
+  display: flex;
+}
+.page-item {
+  min-height: 42px;
+  margin-right: 10px;
+}
+.page-item:last-child {
+  margin-right: 0px;
+}
+
+/*Modal*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal:not(.show) {
+  display: none;
+  transition: opacity 0.9s ease-out;
+  opacity: 0;
+}
+.modal.show {
+  opacity: 1;
+}
+
+.modal-text {
+  color: #ffda6a;
+  font-size: 48px;
+  padding: 20px;
+  background-color: rgba(33, 37, 41, 0.8);
+  border: 5px solid #ffda6a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Winners Page */
+.winners__title {
+  font-size: calc(1.325rem + 0.9vw);
+  color: #ffda6a;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.winners__page {
+  font-size: calc(1.3rem + 0.6vw);
+  color: #ffda6a;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+.table {
+  padding-left: 20px;
+}
+
+.table th,
+.table td {
+  font-size: 20px;
+  padding: 10px 20px;
+  user-select: none; //Attention
+}
+
+.table tbody {
+  background-color: #212529;
+}
+
+.table-button {
+  cursor: pointer;
+}
+.table-button:before {
+  content: '';
+  padding: 0 10px;
+}
+
+.table-button::after {
+  content: '';
+  padding: 0 10px;
+}
+
+.table-button.asc:after,
+.table-button.desc:after {
+  color: lighten(#212529, 5%);
+  padding: 0;
+}
+
+.table-button.asc:after {
+  content: '\25B2';
+}
+
+.table-button.desc:after {
+  content: '\25BC';
+}
+
+.car-icon {
+  position: relative;
+  min-height: 36px;
+  width: 80px;
+}
+
+.car-icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.table th {
+  background-color: #ffe79e;
+  color: #212529;
+}
+.table td {
+  color: #ffda6a;
+  text-align: center;
+  vertical-align: middle;
+}
+
+// .winners-page {
+//   display: none;
+// }
