@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lemurs cams</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lemur-live.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../Assets/Icons/Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../Assets/Icons/Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../Assets/Icons/Favicon/favicon-16x16.png">
+  <link rel="manifest" href="../../../Assets/Icons/Favicon/site.webmanifest">
+  <link rel="mask-icon" href="../../../Assets/Icons/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#f58021">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="container header__container ">
+        <h1 class="title-h1">Online Zoo</h1>
+        <div class="header__row">
+          <a href="../../../index.html" class="header__logo logo"><img src="../../../Assets/Images/General/Logo-Black.png" alt="Logo"></a>
+          <nav class="header__menu menu-header">
+            <ul class="menu-header__list">
+              <li class="menu-header__item"><a class="menu-header__link" href="../../../index.html">About</a></li>
+              <li class="menu-header__item"><a class="menu-header__link" href="../../../pages/map/map.html">Map</a></li>
+              <li class="menu-header__item"><a class="menu-header__link menu-header__link--current" href="../../../pages/zoos/panda/panda-live.html">Zoos</a></li>
+              <li class="menu-header__item"><a class="menu-header__link" href="../../../pages/get-in-touch/get-in-touch.html">Contact us</a></li>
+              <li class="menu-header__item"><a class="menu-header__link" href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">Design</a></li>
+            </ul>
+          </nav>
+          <div class="header__social social">
+            <ul class="social__list">
+              <li class="social__item"><a href="https://www.youtube.com/" class="social__link social__link--youtube"></a></li>
+              <li class="social__item"><a href="https://www.instagram.com/" class="social__link social__link--instagram"></a></li>
+              <li class="social__item"><a href="https://www.facebook.com/" class="social__link social__link--facebook"></a></li>
+            </ul>
+          </div>
+          <button class="header__burger burger">Burger</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="live-and-aside">
+        <div class="aside-wrapper">
+          <aside class="aside">
+            <div class="aside__block-live block-live">
+              <div class="block-live__bage">
+                <span class="block-live__bage-text">Live</span>
+                <span class="block-live__bage-icon">
+                  <svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#camera"></use>
+                  </svg>
+                </span>
+              </div>
+              <button class="block-live__button-more">
+                <svg>
+                  <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#bd-button-more"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="aside__slider">
+              <div class="aside__slider-line">
+                <div class="aside__block-animal block-animal block-animal--panda">
+                  <a class="block-animal__link block-animal__link--panda" href="../panda/panda-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--panda">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#panda"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">Watch live from China's Panda Center</span><span class="block-animal__description--1200">Watch live from China's Panda Center</span></figcaption>
+                  </a>
+                </div>
+                <div class="aside__block-animal block-animal block-animal--eagles">
+                  <a class="block-animal__link block-animal__link--eagles" href="../eagles/eagles-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--eagles">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#eagles"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">Watch The Bald Eagles Nest from West End cam</span><span class="block-animal__description--1200">The Bald Eagles Nest from West End cam</span></figcaption>
+                  </a>
+                </div>
+                <div class="aside__block-animal block-animal block-animal--gorilla">
+                  <a class="block-animal__link block-animal__link--gorilla" href="../gorilla/gorilla-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--gorilla">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#gorilla"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">Livestream from Gorilla Forest Corridor habitat cam</span><span class="block-animal__description--1200">Live from Gorilla Forest Corridor habitat cam</span></figcaption>
+                  </a>
+                </div>
+                <div class="aside__block-animal block-animal block-animal--lemur block-animal--current">
+                  <a class="block-animal__link block-animal__link--lemur" href="../lemur/lemur-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--lemur">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#lemur"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">The ring-tailed lemurs play in Madagascar, Lemuria Land</span><span class="block-animal__description--1200 block-animal__description--1200-lemur">Lemurs play in Madagascar,
+                        Lemuria Land</span><span class="block-animal__description--320-lemur">Lemurs play in Madagascar, Lemuria ...</span></figcaption>
+                  </a>
+                </div>
+                <div class="aside__block-animal block-animal block-animal--panda">
+                  <a class="block-animal__link block-animal__link--panda" href="../panda/panda-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--panda">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#panda"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">Watch live from China's Panda Center</span><span class="block-animal__description--1200">Watch live from China's Panda Center</span></figcaption>
+                  </a>
+                </div>
+                <div class="aside__block-animal block-animal block-animal--eagles">
+                  <a class="block-animal__link block-animal__link--eagles" href="../eagles/eagles-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--eagles">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#eagles"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">Watch The Bald Eagles Nest from West End cam</span><span class="block-animal__description--1200">The Bald Eagles Nest from West End cam</span></figcaption>
+                  </a>
+                </div>
+                <div class="aside__block-animal block-animal block-animal--gorilla">
+                  <a class="block-animal__link block-animal__link--gorilla" href="../gorilla/gorilla-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--gorilla">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#gorilla"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">Livestream from Gorilla Forest Corridor habitat cam</span><span class="block-animal__description--1200">Live from Gorilla Forest Corridor habitat cam</span></figcaption>
+                  </a>
+                </div>
+                <div class="aside__block-animal block-animal block-animal--lemur">
+                  <a class="block-animal__link block-animal__link--lemur" href="../lemur/lemur-live.html">
+                    <figure class="block-animal__figure">
+                      <svg class="block-animal__svg-stroke">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#stroke"></use>
+                      </svg>
+                      <svg class="block-animal__svg-ellipse">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#ellipse"></use>
+                      </svg>
+                      <svg class="block-animal__svg-animal block-animal__svg-animal--lemur">
+                        <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#lemur"></use>
+                      </svg>
+                    </figure>
+                    <figcaption class="block-animal__description"><span class="block-animal__description--1920">The ring-tailed lemurs play in Madagascar, Lemuria Land</span><span class="block-animal__description--1200 block-animal__description--1200-lemur">Lemurs play in Madagascar,
+                        Lemuria Land</span><span class="block-animal__description--320-lemur">Lemurs play in Madagascar, Lemuria ...</span></figcaption>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="aside__block-down block-down">
+              <button class="block-down__button-down">
+                <svg>
+                  <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#bd-button-down"></use>
+                </svg>
+              </button>
+            </div>
+          </aside>
+        </div>
+        <section class="live">
+          <div class="container live__container">
+            <div class="live__title-block">
+              <h2 class="live__title title-h2-green">Lemurs cams</h2>
+              <a class="popup-link live__btn-orange btn-orange" data-popup="main-popup">
+                <span class="btn-orange__text">Donate Now</span>
+                <span class="btn-orange__union union"><svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                  </svg></span>
+              </a>
+            </div>
+            <div class="live__video">
+              <a href="https://youtu.be/jcjDrE1ye-E" class="live__video-link" target="_blank">
+                <h5 class="live__video-header">Andy, the ring-tailed lemurs in Madagascar, Lemuria Land cam 1</h5>
+                <div class="live__video-logo"><img src="../../../Assets/Icons/Live/logo.png" alt="logo"></div>
+                <div class="video__poster video__poster--main">
+                  <img src="../../../Assets/Images/Lemur-live/lemur-poster-cam1.jpg" alt="poster">
+                </div>
+                <button class="video__playbtn-wrapper video__playbtn-wrapper--main">
+                  <svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#play-button"></use>
+                  </svg>
+                </button>
+                <div class="live__video-bottom-controls"><img src="../../../Assets/Icons/Live/bottom-controls.png" alt="control panel"></div>
+              </a>
+            </div>
+            <div class="live__slider slider-live">
+              <h3 class="slider-live__title">More live views</h3>
+              <div class="slider-live__content">
+                <button class="slider-live__arrow slider-live__arrow--left">
+                  <svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                  </svg>
+                </button>
+                <div class="slider-live__body">
+                  <div class="slider-live__body-line">
+                    <article class="slider-live__video-wrapper data-live">
+                      <a href="https://youtu.be/jcjDrE1ye-E" class="slider-live__video-link">
+                        <h5 class="slider-live__video-header">
+                          <div class="slider-live__video-header-text"><span class="slider-live__video-header-text--cam">Cam 1</span><span class="slider-live__video-header-text--live">Live</span></div>
+                        </h5>
+                        <div class="video__poster"><img src="../../../Assets/Images/Lemur-live/lemur-poster-cam1.jpg" alt="poster"></div>
+                        <button class="video__playbtn-wrapper">
+                          <svg>
+                            <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#play-button"></use>
+                          </svg>
+                        </button>
+                      </a>
+                    </article>
+                    <article class="slider-live__video-wrapper">
+                      <a href="https://youtu.be/We5EHfpl7gk" class="slider-live__video-link">
+                        <h5 class="slider-live__video-header">
+                          <div class="slider-live__video-header-text"><span class="slider-live__video-header-text--cam">Cam 2</span><span class="slider-live__video-header-text--live">Live</span></div>
+                        </h5>
+                        <div class="video__poster"><img src="../../../Assets/Images/Lemur-live/lemur-poster-cam2.jpg" alt="poster"></div>
+                        <button class="video__playbtn-wrapper">
+                          <svg>
+                            <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#play-button"></use>
+                          </svg>
+                        </button>
+                      </a>
+                    </article>
+                    <article class="slider-live__video-wrapper">
+                      <a href="https://youtu.be/E2CRx0OPp6s" class="slider-live__video-link">
+                        <h5 class="slider-live__video-header">
+                          <div class="slider-live__video-header-text"><span class="slider-live__video-header-text--cam">Cam 3</span><span class="slider-live__video-header-text--live">Live</span></div>
+                        </h5>
+                        <div class="video__poster"><img src="../../../Assets/Images/Lemur-live/lemur-poster-cam3.jpg" alt="poster"></div>
+                        <button class="video__playbtn-wrapper">
+                          <svg>
+                            <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#play-button"></use>
+                          </svg>
+                        </button>
+                      </a>
+                    </article>
+                    <article class="slider-live__video-wrapper">
+                      <a href="https://youtu.be/jcjDrE1ye-E" class="slider-live__video-link">
+                        <h5 class="slider-live__video-header">
+                          <div class="slider-live__video-header-text"><span class="slider-live__video-header-text--cam">Cam 4</span><span class="slider-live__video-header-text--live">Live</span></div>
+                        </h5>
+                        <div class="video__poster"><img src="../../../Assets/Images/Lemur-live/lemur-poster-cam1.jpg" alt="poster"></div>
+                        <button class="video__playbtn-wrapper">
+                          <svg>
+                            <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#play-button"></use>
+                          </svg>
+                        </button>
+                      </a>
+                    </article>
+                    <article class="slider-live__video-wrapper">
+                      <a href="https://youtu.be/We5EHfpl7gk" class="slider-live__video-link">
+                        <h5 class="slider-live__video-header">
+                          <div class="slider-live__video-header-text"><span class="slider-live__video-header-text--cam">Cam 5</span><span class="slider-live__video-header-text--live">Live</span></div>
+                        </h5>
+                        <div class="video__poster"><img src="../../../Assets/Images/Lemur-live/lemur-poster-cam2.jpg" alt="poster"></div>
+                        <button class="video__playbtn-wrapper">
+                          <svg>
+                            <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#play-button"></use>
+                          </svg>
+                        </button>
+                      </a>
+                    </article>
+                    <article class="slider-live__video-wrapper">
+                      <a href="https://youtu.be/E2CRx0OPp6s" class="slider-live__video-link">
+                        <h5 class="slider-live__video-header">
+                          <div class="slider-live__video-header-text"><span class="slider-live__video-header-text--cam">Cam 6</span><span class="slider-live__video-header-text--live">Live</span></div>
+                        </h5>
+                        <div class="video__poster"><img src="../../../Assets/Images/Lemur-live/lemur-poster-cam3.jpg" alt="poster"></div>
+                        <button class="video__playbtn-wrapper">
+                          <svg>
+                            <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#play-button"></use>
+                          </svg>
+                        </button>
+                      </a>
+                    </article>
+                  </div>
+                </div>
+                <button class="slider-live__arrow slider-live__arrow--right">
+                  <svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="donation">
+        <div class="container donation__container">
+          <div class="donation__first-col">
+            <h3 class="donation__title">Provide Andy the lemur with fruits!</h3>
+            <div class="donation__text">More than 90% of lemur species are endangered and might face extinction in the nearest future. Watch the ring-tailed lemurs play and climb in this soothing setting and support them by donating for the fruits they adore.</div>
+          </div>
+          <div class="donation__second-col">
+            <div class="donation__button-label">Quick Donate</div>
+            <form class="donation__button">
+              <span class="donation__button-text">
+                <input class="donation__button-input" onkeypress="if(this.value.length===4) return false" pattern="[0-9]{1,4}" type="number" min="1" max="9999" placeholder="Donation Amount">
+              </span>
+              <button class="popup-link donation__button-union" data-popup="donation-first-popup" type="submit"> <svg>
+                  <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                </svg></button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="container info-container">
+          <div class="info__wrapper-block">
+            <div class="info__block">
+              <div class="info__block-title">Did you know?</div>
+              <div class="info__block-text">A ring-tailed lemur mob will gather in open areas of the forest to sunbathe. They sit in what some call a "yoga position" with their bellies toward the sun and their arms and legs stretched out to the sides.</div>
+            </div>
+          </div>
+          <div class="info__box box-info">
+            <div class="box-info__body">
+              <div class="box-info__line box-info__line--common-name"><span class="box-info__subheader">Common name:</span>Ring-Tailed Lemur</div>
+              <div class="box-info__line box-info__line--scientific-name"><span class="box-info__subheader">Scientific name:</span>Lemur catta</div>
+              <div class="box-info__line box-info__line--type"><span class="box-info__subheader">Type:</span>Mammals</div>
+              <div class="box-info__line box-info__line--size"><span class="box-info__subheader">Size:</span>Head and body: 17.75 inches; tail: 21.75 inches</div>
+              <div class="box-info__line box-info__line--diet"><span class="box-info__subheader">Diet:</span>Herbivore</div>
+              <div class="box-info__line box-info__line--habitat"><span class="box-info__subheader">Habitat:</span>Arid, open areas and forests</div>
+              <div class="box-info__line box-info__line--range">
+                <p><span class="box-info__subheader">Range:</span>Southeast Asia</p>
+                <a class="box-info__btn-transparent-orange btn-transparent-orange" href="../../map/map.html">
+                  <span class="btn-transparent-orange__text">View Map</span>
+                  <span class="btn-transparent-orange__union"><svg>
+                      <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                    </svg></span>
+                </a>
+              </div>
+            </div>
+            <div class="box-info__right-column">
+              <div class="box-info__image"><img src="../../../Assets/Images/Lemur-live/Lemur-live.jpg" alt="Lemur"></div>
+            </div>
+          </div>
+          <div class="info__text">Ring-tailed lemurs are named for the 13 alternating black and white bands that adorn their tails. Unlike most other lemurs, ringtails spend 40 percent of their time on the ground, moving quadrupedally along the forest floor. Ring-tailed lemurs live in
+            southwestern Madagascar, in arid, open areas and forests in territories that range from 15 to 57 acres (0.06 to 0.2 square kilometers) in size. As with all lemurs, olfactory communication is important for ringtails. Ring-tailed lemurs have scent glands on their wrists and chests
+            that they use to mark their foraging routes. Ringtails eat leaves, flowers and insects. They can also eat fruit, herbs and small vertebrates.
+            Females usually give birth to their first baby when they are three years old, and usually once a year every year after that. All adult females participate in raising the offspring of the group. The median life expectancy for a ring-tailed lemur is about 16 years.</div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__first-row">
+          <div class="footer__logos-wrapper">
+            <a href="../../../index.html" class="footer__logo logo"><img src="../../../Assets/Images/General/Logo-White.png" alt="Logo"></a>
+            <a href="#" class="footer__logo-circle logo-circle" title="Yem Digital"><img src="../../../Assets/Images/Footer/Yem Digital.png" alt="Yem Digital Logo"></a>
+            <a href="#" class="footer__logo-rsschool logo-rsschool" title="RS School"><img src="../../../Assets/Images/Footer/rs_school_js logo.png" alt="RS-School Logo"></a>
+          </div>
+          <nav class="footer__menu menu-footer">
+            <ul class="menu-footer__list">
+              <li class="menu-footer__item"><a href="../../../index.html" class="menu-footer__link">About</a></li>
+              <li class="menu-footer__item"><a href="../../../pages/map/map.html" class="menu-footer__link">Map</a></li>
+              <li class="menu-footer__item"><a href="../../../pages/zoos/panda/panda-live.html" class="menu-footer__link">Zoos</a></li>
+              <li class="menu-footer__item"><a href="#" class="menu-footer__link">Contact us</a></li>
+            </ul>
+          </nav>
+          <a class="popup-link footer__btn-transparent-white btn-transparent-white" data-popup="main-popup" href="#">
+            <span class="btn-transparent-white__text">Donate for volunteers</span>
+            <span class="btn-transparent-white__union union"><svg>
+                <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+              </svg></span>
+          </a>
+        </div>
+        <div class="footer__horizontal-line"></div>
+        <div class="footer__second-row">
+          <div class="footer__copy">
+            <div class="footer__designer-copy">© 2021 DinaK </div>
+            <div class="footer__yem-copy">© Yem Digital </div>
+            <div class="footer__rsschool-copy">© RSSchool</div>
+          </div>
+          <div class="footer__horizontal-line--2"></div>
+          <div class="footer__social social">
+            <ul class="social__list">
+              <li class="social__item"><a href="https://www.youtube.com/" class="social__link social__link--youtube"></a></li>
+              <li class="social__item"><a href="https://www.instagram.com/" class="social__link social__link--instagram"></a></li>
+              <li class="social__item"><a href="https://www.facebook.com/" class="social__link social__link--facebook"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="popup main-popup closed" id="main-popup">
+      <div class="main-popup__window">
+        <div class="main-popup__close popup__close-icon" data-popup='popup'>Close</div>
+        <div class="main-popup__image"><img src="../../../Assets/Images/Popup/popup-main.jpg" alt="Together we care"></div>
+        <div class="main-popup__body">
+          <div class="main-popup__title">Together we care, save and protect!</div>
+          <div class="main-popup__text">Your most generous gift not only cares for countless animals, but it also offers hope and a vital lifeline to the world’s most endangered wildlife relying on us to survive.</div>
+          <div class="main-popup__buttons">
+            <button data-popup="donation-first-popup" class="popup-link btn-donation main-popup__btn-donation main-popup__btn-donation--10x">$20</button>
+            <button data-popup="donation-first-popup" class="popup-link btn-donation main-popup__btn-donation main-popup__btn-donation--10x">$30</button>
+            <button data-popup="donation-first-popup" class="popup-link btn-donation main-popup__btn-donation main-popup__btn-donation--10x">$50</button>
+            <button data-popup="donation-first-popup" class="popup-link btn-donation main-popup__btn-donation main-popup__btn-donation--10x">$80</button>
+            <button data-popup="donation-first-popup" class="popup-link btn-donation main-popup__btn-donation main-popup__btn-donation--100x">$100</button>
+            <button data-popup="donation-first-popup" class="popup-link btn-donation main-popup__btn-donation main-popup__btn-donation--other">Other<span>&nbsp;Amount</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popup donation-popup donation-first-popup closed" id="donation-first-popup">
+      <div class="donation-popup-window">
+        <header class="donation-popup-header">
+          <h3 class="donation-popup-title">Make your donation</h3>
+        </header>
+        <div class="donation-popup-content">
+          <div class="donation-popup-info donation-first-popup__info">Donation Information:</div>
+          <div class="donation-popup-hr donation-first-popup__hr"></div>
+          <form action="#" class="donation-first-popup__form">
+            <div class="donation-first-popup__sum">
+              <div class="donation-first-popup__sum-first-row">
+                <button class="donation-first-popup__sum-button btn-donation donation-first-popup__sum-button--10x">$10</button>
+                <button class="donation-first-popup__sum-button btn-donation donation-first-popup__sum-button--10x">$20</button>
+                <button class="donation-first-popup__sum-button btn-donation donation-first-popup__sum-button--10x">$30</button>
+                <button class="donation-first-popup__sum-button btn-donation donation-first-popup__sum-button--10x">$50</button>
+                <button class="donation-first-popup__sum-button btn-donation donation-first-popup__sum-button--10x">$80</button>
+                <button class="donation-first-popup__sum-button btn-donation donation-first-popup__sum-button--100x">$100</button>
+              </div>
+              <div class="donation-first-popup__sum-second-row">
+                <label for="sum-input" class="donation-first-popup__sum-button donation-first-popup__sum-button--other btn-donation">Other Amount</label>
+                <input required type="number" class="donation-first-popup__sum-input" id="sum-input" name="sum-input">
+              </div>
+            </div>
+            <div class="donation-first-popup__favourite-pet-block">
+              <label for="favourite-pet-select" class="btn-donation donation-first-popup__favourite-pet-label">For special pet</label>
+              <div class="select-box select-box-pet">
+                <div class="options-container select-box-pet__options-container">
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o1" name="Lukas the Panda">
+                    <label for="s1o1">Lukas the Panda</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o2" name="Andy the Lemur">
+                    <label for="s1o2">Andy the Lemur</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o3" name="Glen the Gorilla">
+                    <label for="s1o3">Glen the Gorilla</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o4" name="Mike the Alligator">
+                    <label for="s1o4">Mike the Alligator</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o5" name="Sam & Lora the eagles family">
+                    <label for="s1o5">Sam & Lora the eagles family</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o6" name="Liz the Koala">
+                    <label for="s1o6">Liz the Koala</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o7" name="Shake the Lion">
+                    <label for="s1o7">Shake the Lion</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s1o8" name="Senja the Tiger">
+                    <label for="s1o8">Senja the Tiger</label>
+                  </div>
+                </div>
+                <div class="selected select-box-pet__selected">Choose your favourite:</div>
+                <input required class="select-box-pet__select-input select-input" type="text" value="">
+              </div>
+            </div>
+            <div class="donation-first-popup__recurring-gift">
+              <input type="checkbox" id="recurring-gift-checkbox" class="donation-first-popup__recurring-gift-checkbox" value="recurring-gift-checkbox">
+              <label for="recurring-gift-checkbox" class="donation-first-popup__recurring-gift-label">Make this a monthly recurring gift</label>
+            </div>
+            <div class="donation-popup-footer donation-first-popup__footer">
+              <div class="donation-popup-stage donation-first-popup__stage">
+                <span class="donation-popup-stage-mark donation-popup-stage-mark--completed"></span>
+                <span class="donation-popup-stage-mark"></span>
+                <span class="donation-popup-stage-mark"></span>
+              </div>
+              <button type="submit" data-popup="donation-second-popup" class="donation-popup-next-button btn-donation donation-popup-next-button--invalid">
+                <span class="donation-popup-next-button__text">Next</span>
+                <span class="donation-popup-next-button__union"><svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                  </svg></span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="popup donation-popup donation-second-popup closed" id="donation-second-popup">
+      <div class="donation-popup-window ">
+        <header class="donation-popup-header">
+          <h3 class="donation-popup-title">Make your donation</h3>
+        </header>
+        <div class="donation-popup-content">
+          <div class="donation-popup-info">Billing Information:</div>
+          <div class="donation-popup-hr"></div>
+          <form action="#" class="donation-second-popup__form">
+            <div class="donation-second-popup__name">
+              <label for="donation-name" class="donation-second-popup__name-label">*Your Name</label>
+              <input required autocomplete="off" type="text" class="donation-second-popup__name-input" id="donation-name" name="donation-name" placeholder="First and last name">
+            </div>
+            <div class="donation-second-popup__email">
+              <label for="donation-email" class="donation-second-popup__email-label">*Your Email Address </label>
+              <input required autocomplete="off" type="email" class="donation-second-popup__email-input" id="donation-email" name="donation-email" placeholder="Enter your email">
+              <p class="donation-second-popup__comment">You will receive emails from the Online Zoo, including updates and news on the latest discoveries and translations. You can unsubscribe at any time.</p>
+            </div>
+            <div class="donation-popup-footer donation-second-popup__footer">
+              <div class="donation-popup-stage donation-second-popup__stage">
+                <span class="donation-popup-stage-mark donation-popup-stage-mark--completed"></span>
+                <span class="donation-popup-stage-mark donation-popup-stage-mark--completed"></span>
+                <span class="donation-popup-stage-mark"></span>
+              </div>
+              <button data-popup="donation-first-popup" class="popup-link donation-popup-back-button donation-second-popup__back-button">
+                <span class="donation-popup-back-button__text">Back</span>
+              </button>
+              <button type="submit" data-popup="donation-third-popup" class="donation-popup-next-button btn-donation donation-popup-next-button--invalid">
+                <span class="donation-popup-next-button__text">Next</span>
+                <span class="donation-popup-next-button__union"><svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                  </svg></span>
+              </button>
+            </div>
+          </form>
+        </div>
+    </section>
+    <section class="popup donation-popup donation-third-popup closed" id="donation-third-popup">
+      <div class="donation-popup-window">
+        <header class="donation-popup-header">
+          <h3 class="donation-popup-title">Make your donation</h3>
+        </header>
+        <div class="donation-popup-content">
+          <div class="donation-popup-info">Payment Information:</div>
+          <div class="donation-popup-hr"></div>
+          <form action="" class="donation-third-popup__form">
+            <div class="donation-third-popup__credit-card">
+              <div class="donation-third-popup__credit-card-number">
+                <label for="credit-card-number" class="donation-third-popup__credit-card-number-label">*Credit Card Number</label>
+                <input required type="number" id="credit-card-number" class="donation-third-popup__credit-card-number-input" placeholder="XXXXXXXXXXXXXXXX">
+              </div>
+              <div class="donation-third-popup__cvv-number">
+                <label for="cvv-number" class="donation-third-popup__cvv-number-label">*CVV Number</label>
+                <input required type="number" id="cvv-number" class="donation-third-popup__cvv-number-input" placeholder="XXX">
+              </div>
+            </div>
+            <div class="donation-third-popup__expiration-date">
+              <label for="" class="donation-third-popup__expiration-date-label">*Expiration Date:</label>
+              <div class="select-box select-box-month">
+                <div class="options-container select-box-month__options-container">
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o1" name="s2o1">
+                    <label for="s2o1">01</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o2" name="s2o2">
+                    <label for="s2o2">02</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s203" name="s203">
+                    <label for="s2o3">03</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o4" name="s2o4">
+                    <label for="s2o4">04</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o5" name="s2o5">
+                    <label for="s2o5">05</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o6" name="s2o6">
+                    <label for="s2o6">06</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o7" name="s2o7">
+                    <label for="s2o7">07</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o8" name="s2o8">
+                    <label for="s2o8">08</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o9" name="s2o9">
+                    <label for="s2o9">09</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o10" name="s2o10">
+                    <label for="s2o10">10</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o11" name="s2o11">
+                    <label for="s2o11">11</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s2o12" name="s2o12">
+                    <label for="s2o12">12</label>
+                  </div>
+                </div>
+                <div class="selected select-box-month__selected">Month</div>
+                <input required class="select-input select-box-month__select-input" type="text" value="">
+              </div>
+              <div class="select-box select-box-year">
+                <div class="options-container select-box-year__options-container">
+                  <div class="option">
+                    <input type="radio" class="radio" id="s3o1" name="s3o1">
+                    <label for="s3o1">2021</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s3o2" name="s3o2">
+                    <label for="s3o2">2022</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s303" name="s303">
+                    <label for="s3o3">2023</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s3o4" name="s3o4">
+                    <label for="s3o4">2024</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s3o5" name="s3o5">
+                    <label for="s3o5">2025</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" class="radio" id="s3o6" name="s3o6">
+                    <label for="s3o6">2026</label>
+                  </div>
+
+                </div>
+                <div class="selected select-box-year__selected">Year</div>
+                <input required class="select-input select-box-year__select-input" type="text" value="">
+              </div>
+            </div>
+            <div class="donation-popup-footer donation-third-popup__footer">
+              <div class="donation-popup-stage donation-third-popup__stage">
+                <span class="donation-popup-stage-mark donation-popup-stage-mark--completed"></span>
+                <span class="donation-popup-stage-mark donation-popup-stage-mark--completed"></span>
+                <span class="donation-popup-stage-mark donation-popup-stage-mark--completed"></span>
+              </div>
+              <button data-popup="donation-second-popup" class="popup-link donation-popup-back-button donation-third-popup__back-button">
+                <span class="donation-popup-back-button__text">Back</span>
+              </button>
+              <button type="submit" class="donation-popup-next-button btn-donation donation-third-popup__complete-button donation-third-popup__complete-button--invalid">
+                <span class="donation-third-popup__complete-button-text donation-popup-next-button__text">Complete donation</span>
+                <span class="donation-third-popup__complete-button-union donation-popup-next-button__union"><svg>
+                    <use xlink:href="../../../Assets/Icons/svg-sprite/sprite.svg#union"></use>
+                  </svg></span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="lemur.js"></script>
+</body>
+
+</html>
