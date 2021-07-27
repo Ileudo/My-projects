@@ -1,0 +1,84 @@
+@import 'custom.scss';
+
+.offcanvas {
+  position: absolute;
+  bottom: 0;
+  z-index: 1050;
+  max-width: 100%;
+  color: #fff;
+  visibility: hidden;
+  background-clip: padding-box;
+  outline: 0;
+  transition: all 0.3s;
+  background: $green-gradient;
+}
+
+.play .offcanvas {
+  background: $orange-gradient;
+}
+
+.offcanvas.show {
+  visibility: visible;
+  transform: none;
+}
+
+.offcanvas-start {
+  top: 0;
+  left: 0;
+  width: 400px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);
+}
+
+.offcanvas__list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.offcanvas__list > li {
+  text-align: center;
+}
+
+.offcanvas__list > li,
+.play .offcanvas__list > li {
+  background: transparent;
+}
+.offcanvas__list > li:hover {
+  background: $green-gradient-darker;
+  cursor: pointer;
+}
+.offcanvas__list > li:active {
+  background: $green-gradient-darker-reverse;
+}
+
+.play .offcanvas__list > li:hover {
+  background: $orange-gradient-darker;
+  cursor: pointer;
+}
+.play .offcanvas__list > li:active {
+  background: $orange-gradient-darker-reverse;
+}
+
+.offcanvas__link {
+  width: 100%;
+  height: 100%;
+  font-size: calc(1rem + 0.75vw);
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #fff;
+  user-select: none;
+  padding: 0.5rem 0;
+}
+
+.offcanvas__list > li.current > .offcanvas__link {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+}
+
+.offcanvas__list > li.current:hover {
+  cursor: default;
+  background: transparent;
+}

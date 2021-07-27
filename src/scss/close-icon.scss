@@ -1,0 +1,56 @@
+.close-icon {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  z-index: 1051;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transform: scale(0.8);
+}
+
+.close-icon span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background-color: #cdcdcd;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s;
+}
+
+.close-icon span:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.close-icon span:nth-child(2) {
+  top: 18px;
+  transform-origin: left center;
+}
+
+.close-icon span:nth-child(3) {
+  top: 36px;
+  transform-origin: left center;
+}
+
+.close-icon.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+}
+
+.close-icon.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.close-icon.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 39px;
+  left: 8px;
+}

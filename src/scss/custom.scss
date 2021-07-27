@@ -1,0 +1,13 @@
+$green-primary: #00bf82;
+$green-gradient: linear-gradient(40deg, #00bf82, #0099ae);
+$green-gradient-light-darker: linear-gradient(40deg, darken(#00bf82, 3%), darken(#0099ae, 3%));
+$green-gradient-darker: linear-gradient(40deg, darken(#00bf82, 5%), darken(#0099ae, 5%));
+$green-gradient-darker-reverse: linear-gradient(40deg, darken(#0099ae, 5%), darken(#00bf82, 5%));
+$orange-primary: #fc6262;
+$orange-gradient: linear-gradient(40deg, #ffd86f, #fc6262);
+$orange-gradient-darker: linear-gradient(40deg, darken(#ffd86f, 5%), darken(#fc6262, 5%));
+$orange-gradient-darker-reverse: linear-gradient(40deg, darken(#fc6262, 5%), darken(#ffd86f, 5%));
+
+.row {
+  --bs-gutter-y: 1.5rem;
+}

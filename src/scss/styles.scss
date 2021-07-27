@@ -1,0 +1,24 @@
+@import 'null.scss';
+@import 'custom.scss';
+// @import 'bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'btn.scss';
+// @import 'categories-card';
+
+body {
+  line-height: 1.25rem;
+  user-select: none;
+}
+section {
+  padding: 0.5rem 0;
+}
+.header {
+  padding: 0.5rem;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
