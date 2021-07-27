@@ -11,5 +11,7 @@ To run the server follow the instructions:
 - Start server: $ npm start.
 
 Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/async-race.md
+
 Deploy: https://ileudo.github.io/My-projects/Async-Race/
+
 ![async-race](https://user-images.githubusercontent.com/79589513/122123209-0608f580-ce2e-11eb-98ee-8ac3b903889a.jpg)
